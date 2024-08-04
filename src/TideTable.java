@@ -1,11 +1,12 @@
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 public class TideTable {
     private static final String API_KEY = "DEMO"; // Replace with your actual API key if needed
