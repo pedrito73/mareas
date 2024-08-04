@@ -8,7 +8,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class TideTable {
-    private static final String API_KEY = "f2a4194d-9d6e-4215-9cb7-10529bd272b4"; // Replace with your actual API key if needed
+    private static final String API_KEY = "DEMO"; // Replace with your actual API key if needed
 
     public static void main(String[] args) {
         String response = getTideData();
